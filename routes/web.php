@@ -18,5 +18,7 @@ use App\Http\Controllers\AuthController;
 //     return view('login');
 // });
 
-Route::get('/', [AuthController::class, 'login']);
-Route::post('/login', [AuthController::class, 'loginPost']);
+Route::get('/', [AuthController::class, 'login'])->name('home');
+Route::post('/login', [AuthController::class, 'loginPost'])->name('loginPost');
+Route::get('/forgot-password', [AuthController::class, 'forgotPassword'])->name('forgot-password');
+Route::post('/forgot-password', [AuthController::class, 'forgotPasswordPost'])->name('forgotPassword');
