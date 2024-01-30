@@ -29,7 +29,7 @@
                 </div>
                 <label>Password</label>
                 <div class="mb-3">
-                  <input type="passwrod" class="form-control" name="password" placeholder="Password" aria-label="Password" aria-describedby="password-addon" required>
+                  <input type="password" class="form-control" name="password" placeholder="Password" aria-label="Password" aria-describedby="password-addon" required>
                 </div>
                 <div class="text-center">
                   <button type="submit" class="btn bg-gradient-success w-100 mt-4 mb-0">Sign in</button>
